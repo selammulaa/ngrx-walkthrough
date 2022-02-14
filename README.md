@@ -2,6 +2,16 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.3.
 
+## Let's cover what you did:
+
+  - Defined actions to express events.
+  - Defined two reducer functions to manage different parts of the state.
+  - Registered the global state container that is available throughout your application.
+  - Defined the state, as well as selectors that retrieve specific parts of the state.
+  - Created two distinct components, as well as a service that fetches from the Google Books API.
+  - Injected the Store and Google Books API services to dispatch actions and select the current state.
+This code is from [NgRx Site](https://ngrx.io/guide/store/walkthrough)
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
