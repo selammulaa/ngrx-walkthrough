@@ -10,6 +10,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
   - Defined the state, as well as selectors that retrieve specific parts of the state.
   - Created two distinct components, as well as a service that fetches from the Google Books API.
   - Injected the Store and Google Books API services to dispatch actions and select the current state.
+ 
+
 This code is from [NgRx Site](https://ngrx.io/guide/store/walkthrough)
 
 ## Development server
